@@ -3,6 +3,7 @@ do{
 let x = 3;
 function Authenticate() {
     var Password = document.getElementById("Password").value;
+    var y = document.getElementById("eqn");
     if(Password == "Bankole"){
         document.getElementById("Grant").innerHTML="Access Granted";
         
@@ -11,8 +12,8 @@ function Authenticate() {
     else{
         x-=1;
         if(x==0) {
-        alert("3 Wrong Input");
-            
+            alert("3 Wrong Input");
+            x = 3;
         }
         document.getElementById("denied").innerHTML="Access Denied Try again";
     }

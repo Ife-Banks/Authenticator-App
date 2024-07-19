@@ -63,6 +63,9 @@ h1{
     gap: 0px;
     padding: 10px;
 }
+.hidden {
+    display: none;
+}
 
 #Grant{
     
